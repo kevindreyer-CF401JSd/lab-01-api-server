@@ -1,0 +1,31 @@
+{
+  "name": "lab-07-api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test-watch": "jest --watchAll",
+    "test": "jest"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevindreyer-CF401JSd/lab-07-api-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevindreyer-CF401JSd/lab-07-api-server/issues"
+  },
+  "homepage": "https://github.com/kevindreyer-CF401JSd/lab-07-api-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^25.1.0",
+    "supertest": "^4.0.2"
+  }
+}
